@@ -1,0 +1,25 @@
+// info from treehouse.com  blog
+
+// Assuming we have set up a github repository called: gitweb
+// Working on local directory /home/kflee/Github
+//
+cd /home/kflee/Github
+git clone https://github.com/kflee2000/gitweb.git
+cd gitweb
+
+git checkout --orphan myweb
+ -- switch to myweb ..
+
+Add webpage files
+
+git commit -a -m "Add My webpages"
+git push origin myweb
+
+it will ask github username and password:
+
+and we shold see:
+
+http://kflee2000.github.io/gitweb/.
+
+
+
